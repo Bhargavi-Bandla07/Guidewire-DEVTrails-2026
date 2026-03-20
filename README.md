@@ -125,7 +125,25 @@ We created a simple UI prototype that shows:
 - Advanced AI models for prediction  
 - Fraud detection using GPS data  
 - Mobile app version  
-- Integration with delivery platforms  
+- Integration with delivery platforms
+
+** Adversarial Defense & Anti-Spoofing Strategy**
+
+To handle large-scale fraud scenarios such as fake GPS spoofing and coordinated claim attacks, our system includes multiple layers of defense.
+
+First, we do not rely only on GPS data. Instead, we validate user location using multiple signals such as device location consistency, network data, and historical movement patterns.
+
+Second, we analyze user behavior patterns. If multiple users suddenly trigger claims from the same location or at the same time, the system flags this as suspicious activity.
+
+Third, we compare real-time external data with user claims. For example, if a user reports heavy rain, the system verifies it using weather API data for that specific location.
+
+Fourth, we track historical activity. If a user frequently claims payouts without consistent work patterns, the system marks them as high-risk.
+
+Fifth, we implement anomaly detection using AI. This helps identify unusual claim spikes, repeated patterns, and coordinated fraud attempts.
+
+To ensure fairness, flagged users are not immediately blocked. Instead, they are marked for further verification, so genuine users are not affected.
+
+This multi-layered approach helps the system distinguish between genuine users and fraudulent actors while maintaining trust and reliability.
 
 **Demo Video**
    **Link:**https://youtu.be/IBAt5hjjJ_A
