@@ -129,11 +129,10 @@ We created a simple UI prototype that shows:
 
 **Demo Video**
   
-** Link:** 
+**Link:**
 
 **GitHub Repository**
-
-** Link:** https://github.com/Bhargavi-Bandla07/Guidewire-DEVTrails-2026.git
+ **Link:** https://github.com/Bhargavi-Bandla07/Guidewire-DEVTrails-2026.git
 
 **Final Note**
 
