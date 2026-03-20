@@ -127,7 +127,7 @@ We created a simple UI prototype that shows:
 - Mobile app version  
 - Integration with delivery platforms
 
-** Adversarial Defense & Anti-Spoofing Strategy**
+ ** Adversarial Defense & Anti-Spoofing Strategy**
 
 To handle large-scale fraud scenarios such as fake GPS spoofing and coordinated claim attacks, our system includes multiple layers of defense.
 
