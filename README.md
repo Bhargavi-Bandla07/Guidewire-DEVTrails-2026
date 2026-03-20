@@ -128,8 +128,7 @@ We created a simple UI prototype that shows:
 - Integration with delivery platforms  
 
 **Demo Video**
-  
-**Link:**
+   **Link:**https://youtu.be/IBAt5hjjJ_A
 
 **GitHub Repository**
  **Link:** https://github.com/Bhargavi-Bandla07/Guidewire-DEVTrails-2026.git
